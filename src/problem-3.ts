@@ -20,7 +20,6 @@ const countWordOccurrences =(sentence :string , word:string):number =>{
     return count
 }
 
-countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript")
 // const result = countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
 // console.log(result)
 
