@@ -16,7 +16,6 @@ const sumArray = (arr :number[]) :number =>{
     },0)
 }
 
-sumArray([1, 2, 3, 4, 5]);
 
-// const sum = sumArray([1, 2, 3, 4, 5]);
-// console.log(sum);
+const sum = sumArray([1, 2, 3, 4, 5]);
+console.log(sum);

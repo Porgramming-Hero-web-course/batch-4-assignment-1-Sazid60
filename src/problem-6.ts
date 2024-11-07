@@ -19,7 +19,7 @@ interface Profile {
 }
 
 
-const updateProfile = (profile:Profile, update:Partial<Profile> ) =>{
+const updateProfile = (profile:Profile, update:Partial<Profile> ):Profile =>{
 return {...profile, ...update}
 }
 
