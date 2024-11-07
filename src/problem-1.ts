@@ -1,4 +1,5 @@
 // Problem 1:
+
 // Write a TypeScript function sumArray that takes an array of numbers and returns the sum of all elements in the array.
 
 // Sample Input:
@@ -17,5 +18,5 @@ const sumArray = (arr :number[]) :number =>{
 }
 
 
-const sum = sumArray([1, 2, 3, 4, 5]);
-console.log(sum);
+// const sum = sumArray([1, 2, 3, 4, 5]);
+// console.log(sum);

@@ -12,6 +12,8 @@
 // // Sample Output:
 // 1;
 
+// Solution-3 :
+
 const countWordOccurrences =(sentence :string , word:string):number =>{
     let count :number = 0
     const sentenceArray:string[] = sentence.toLocaleLowerCase().split(" ")
@@ -25,5 +27,5 @@ const countWordOccurrences =(sentence :string , word:string):number =>{
     return count
 }
 
-const result = countWordOccurrences("I love typescript", "typescript");
-console.log(result);
+// const result = countWordOccurrences("I love typescript", "typescript");
+// console.log(result);
